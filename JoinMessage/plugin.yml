@@ -1,0 +1,4 @@
+name: JoinMessage
+main: Sunshine\main
+version: 0.2
+api: [1.13.0]
