@@ -1,4 +1,5 @@
 name: JoinMessage
-main: Sunshine\main
+main: popkechupki\main
 version: 0.2
 api: [1.13.0]
+web: 
