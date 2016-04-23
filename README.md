@@ -1,4 +1,4 @@
-# JoinMessage
+# JoinMessage_v0.1
 PocketMine-MPのメッセージプラグインです。
 使用する際には以下のライセンスに同意した上での使用をお願いします。
 #popke LICENSE
