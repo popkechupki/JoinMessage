@@ -13,9 +13,9 @@ use pocketmine\utils\Config;
 class main extends PluginBase implements Listener{ 
 
 	public function onEnable(){
-        $plugin = "JoinMessage";                                        
-        $this->getLogger()->info(TextFormat::GREEN.$plugin."を読み込みました".TextFormat::BLUE." By Sunshine");
-        $this->getLogger()->info(TextFormat::RED.$plugin."を二次配布するのは禁止です");                
+        $plugin = "PocketJobsPlus";                                        
+    	$this->getLogger()->info(TextFormat::GREEN.$plugin."を読み込みました".TextFormat::GOLD." By popkechupki");
+    	$this->getLogger()->info(TextFormat::RED."このプラグインはpopke LICENSEに同意した上で使用してください。");                
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
 
 	if (!file_exists($this->getDataFolder())) @mkdir($this->getDataFolder(), 0740, true);
