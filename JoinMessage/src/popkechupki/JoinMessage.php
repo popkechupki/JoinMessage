@@ -9,11 +9,11 @@ use pocketmine\utils\TextFormat; //表示するチャットに色をつけられ
 
 class JoinMessage extends PluginBase implements Listener {
   
-  function onEnable() {
+  function onEnable() { //プラグインを読み込む時の処理
     $this->getServer()->getPluginManager()->registerEvents($this,$this);  //イベントクォ使うプラグインには必須
   }
   
-  function onJoin(PlayerJoinEvent $event) {
+  function onJoin(PlayerJoinEvent $event) { //プレイヤーが参加した時の処理
     $player = $event->getPlayer(); //イベントからプレイヤーを取得
     $pName = $player->getName(); //上で取得したプレイヤーから名前を取得。
     $event->setJoinMessage(""); //デフォルトでは~~さんが参加しましたという黄色いメッセージ。""の中に入力すると変更されます。
