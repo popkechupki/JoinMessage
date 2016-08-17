@@ -3,11 +3,12 @@
 namespace popkechupki; //このファイルが入っているフォルダを書く
 
 use pocketmine\Plugin\PluginBase; //どのプラグインにも書きます。
-use pocketmine¥event¥EventListener; //Eventを使うプラグインには必須
-use pocketmine¥event¥PlayerJoinEvent; //プレイヤーがサーバーに入ってきた時に発生するイベント
+use pocketmine\event\EventListener; //Eventを使うプラグインには必須
+use pocketmine\event\player\PlayerJoinEvent; //プレイヤーがサーバーに入ってきた時に発生するイベント
 use pocketmine\utils\TextFormat; //表示するチャットに色をつけられます。
 
-class JoinMessage extends PluginBase implements Listener { //JoinMessageの所はこのファイルの名前
+class JoinMessage extends PluginBase implements Listener { 
+  // ↑ JoinMessageの所はこのファイルの名前
   
   function onEnable() { //プラグインを読み込む時の処理
     $this->getServer()->getPluginManager()->registerEvents($this,$this);  //イベントクォ使うプラグインには必須
