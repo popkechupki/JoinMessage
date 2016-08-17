@@ -1,7 +1,16 @@
+#name: プラグインの名前（DevToolsで圧縮したりする時に入力）
 name: JoinMessage
+#main: phpファイルのパス（どこにphpファイルがあるか）
 main: popkechupki\JoinMessage
+#version: プラグインのバージョン
 version: 1.0
+#api: プラグインのapi（1.13.1や2.0.0など。両方記載する場合は[1.13.1, 2.0.0]と書く）
 api: [2.0.0]
+#どのタイミングでプラグインを読み込むか（POSTWORLDとSTARTUPがあるが基本的に前者）
 load: POSTWORLD
+#auther: 開発者の名前
 auther: popkechupki
+#description: "プラグインの説明"
 description: "ジョインメッセージプラグイン！"
+#web: サイトurl
+web: https://github.com/popkechupki/JoinMessage
