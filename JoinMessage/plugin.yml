@@ -1,0 +1,7 @@
+name: JoinMessage
+main: popkechupki\JoinMessage
+version: 1.0
+api: [2.0.0]
+load: POSTWORLD
+auther: popkechupki
+description: "ジョインメッセージプラグイン！"
